@@ -10,9 +10,10 @@ window.ipc.onProcessEvent((eventType: string, data: any[]) => {
             // Create the webview
             const { userAgent, partition } = data[0];
 
-            const url: string = "https://www.nexus-app.net/develop/";
+            const url: string = "https://www.notion.so/";
             const html: string = `
                 <webview 
+                    id='view'
                     allowpopups
                     src="${url}"
                     partition="${partition}" 
@@ -20,6 +21,11 @@ window.ipc.onProcessEvent((eventType: string, data: any[]) => {
                 ></webview>
             `
             document.getElementById("app").insertAdjacentHTML('beforeend', html);
+            const webview: HTMLElement = document.getElementById('view');
+
+            (webview as any).webcontents
+ 
+
             break;
         }
         default: {

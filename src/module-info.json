@@ -1,13 +1,22 @@
 {
-    "name": "Sample Web Browser Module",
-    "id": "developer.Sample_Web_Module",
-    "author": "developer",
+    "name": "Notion for Nexus",
+    "id": "manders.Notion_for_Nexus",
+    "author": "Amanda Nguyen",
+    "author-id": "6844024e6e975d615e9215c5",
     "version": "1.0.0",
-    "description": "A developer template to embed websites within Nexus.",
-    "platforms": ["win32", "linux", "darwin"],
-    "link": "https://github.com/aarontburn/nexus-template-webpage",
+    "git-latest": {
+        "git-repo-name": "Nexus-Notion",
+        "git-username": "amanda65"
+    },
+    "description": "Notion embed for Notion_for_Nexus",
+    "platforms": [
+        "win32",
+        "linux",
+        "darwin"
+    ],
+    "link": "https://github.com/amanda65/Nexus-Notion",
     "build": {
-        "build-version": 1,
+        "build-version": 2,
         "excluded": [
             "electron.ts"
         ],
