@@ -8,7 +8,7 @@
         "git-repo-name": "Nexus-Notion",
         "git-username": "amanda65"
     },
-    "description": "Notion embed for Notion_for_Nexus",
+    "description": "Notion website embedded for Nexus",
     "platforms": [
         "win32",
         "linux",
@@ -16,7 +16,7 @@
     ],
     "link": "https://github.com/amanda65/Nexus-Notion",
     "build": {
-        "build-version": 2,
+        "build-version": 3,
         "excluded": [
             "electron.ts"
         ],
